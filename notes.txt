@@ -1,0 +1,42 @@
+---------------------------------------------------------------------
+CHAPTER 2.1
+---------------------------------------------------------------------
+npx create-react-app@latest la-maison-jungle
+npm install -g npm@latest
+
+yarn start
+// same as npm start
+
+yarn run build
+// build react app for production
+
+yarn test
+// execute tests
+
+(possible to add command in /package.json > "scripts")
+
+
+---------------------------------------------------------------------
+CHAPTER 2.2
+---------------------------------------------------------------------
+
+In JSX we use the attribute className with a string to access to 
+    the HTML class attribute.
+It's possible to use different class for an element with space (as HTML).
+
+
+---------------------------------------------------------------------
+CHAPTER 2.3
+---------------------------------------------------------------------
+The map() JS method to apply a function to a table
+    Ex: const numbers = [1, 2, 3, 4]
+        const doubles = numbers.map(x => x * 2) // [2, 4, 6, 8]
+
+Don't forget to add key when using a list (cf: ./src/components/ShoppingList.js)
+
+
+---------------------------------------------------------------------
+CHAPTER 3.1
+---------------------------------------------------------------------
+
+
