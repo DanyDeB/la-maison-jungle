@@ -13,6 +13,7 @@ function App() {
                 <img src={logo} alt='La maison jungle' />
                 <h1 className='lmj-title'>La maison jungle</h1>
             </Banner>
+            {/* <QuestionForm /> */}
             <QuestionForm2 />
             {/* <Cart /> */}
             <ShoppingList />

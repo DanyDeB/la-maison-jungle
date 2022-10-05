@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function QuestionForm() {
+function QuestionForm2() {
     const [inputValue, setInputValue] = useState('Posez votre question ici')
     return (
         <div>
@@ -12,4 +12,4 @@ function QuestionForm() {
     )
 }
 
-export default QuestionForm
+export default QuestionForm2

@@ -14,8 +14,8 @@ function PlantItem({ id, cover, name, water, light}) {
     )
 }
 
-function handleClick(e) {
-    console.log('Clique reçu avec succès', e)
+function handleClick(e) {}
+    console.log('Ceci est mon event :', e)
 }
 
 export default PlantItem

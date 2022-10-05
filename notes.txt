@@ -36,7 +36,7 @@ Don't forget to add key when using a list (cf: ./src/components/ShoppingList.js)
 
 
 ---------------------------------------------------------------------
-CHAPTER 3.1
+CHAPTER 3.4
 ---------------------------------------------------------------------
 
 
