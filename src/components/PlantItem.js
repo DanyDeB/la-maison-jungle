@@ -14,7 +14,7 @@ function PlantItem({ id, cover, name, water, light}) {
     )
 }
 
-function handleClick(e) {}
+function handleClick(e) {
     console.log('Ceci est mon event :', e)
 }
 

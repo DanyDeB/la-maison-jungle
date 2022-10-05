@@ -5,6 +5,7 @@ import Cart from './Cart';
 import ShoppingList from './ShoppingList';
 import QuestionForm from './QuestionForm';
 import QuestionForm2 from './QuestionForm2';
+import Footer from './Footer';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <QuestionForm2 />
             {/* <Cart /> */}
             <ShoppingList />
+            <Footer />
         </div>
     )
 }
