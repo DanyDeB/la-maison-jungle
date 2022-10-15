@@ -16,7 +16,7 @@ function App() {
             </Banner>
             {/* <QuestionForm /> */}
             <QuestionForm2 />
-            {/* <Cart /> */}
+            <Cart />
             <ShoppingList />
             <Footer />
         </div>
