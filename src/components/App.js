@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import logo from '../assets/logo.png'
 
 import Banner from './Banner';
@@ -8,6 +10,8 @@ import QuestionForm2 from './QuestionForm2';
 import Footer from './Footer';
 
 function App() {
+    const [cart, updateCart] = useState([])
+    
     return (
         <div>
             <Banner>
@@ -16,8 +20,14 @@ function App() {
             </Banner>
             {/* <QuestionForm /> */}
             <QuestionForm2 />
-            <Cart />
-            <ShoppingList />
+            <Cart 
+                cart={cart} 
+                updateCart={updateCart} 
+            />
+            <ShoppingList 
+                cart={cart} 
+                updateCart={updateCart} 
+            />
             <Footer />
         </div>
     )
